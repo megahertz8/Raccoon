@@ -27,6 +27,9 @@ and modules by files
 
 
 ##### Roadmap and TODOs
+- [ ] Have a parallel-all option run in integration with the -q argument. Essentially, make all scans 
+run together when there is no stdout output for much quicker scan times. Running everything in parallel,
+ especially dirbusting, messes output entirely.
 - [ ] Support multiple hosts (read from file)
 - [ ] CIDR notation support
 - [ ] IP ranges support
